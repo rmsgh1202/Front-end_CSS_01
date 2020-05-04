@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Selector Basic</title>
+    <style>
+        /* anchor 태그는 두가지 가상클래스 속성을 가지고 있습니다 */
+        /* h1 a { color: red; text-decoration: none; } */
+
+        /* 처음 링크를 걸었을 때의 스타일을 적용합니다 */
+          h1 a:link { color: red; }
+
+        /* 한번 클릭한 이후의 스타일을 적용합니다 */
+          h1 a:visited { color: green; }
+
+          h1 a:hover { color: pink; }
+          h1 a:active { color: gray; }
+          h1 a:focus { font-size: 50px; }
+
+    </style>
+</head>
+<body>
+    <h1><a href="#">Nothing</a></h1>
+    <h1><a href="http://www.w3.org/">W3C</a></h1>
+</body>
+</html>

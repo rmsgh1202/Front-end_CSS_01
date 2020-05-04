@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>CSS3 Selector Basic Page</title>
+    <style>
+        * { margin:0; }
+        /* id 속성으로 header를 가지고 있는 태그의 width, background 속성을 지정합니다.  */
+          #header { width: 800px; height: 200px; background: lightgray; }
+        /* id 속성으로 wrap을 가지고 있는 태그의 width 속성을 지정합니다. */
+          #wrap { overflow: hidden; width: 800px; background: red; }
+        /* id 속성으로 content를 가지고 있는 태그의 width, background, float 속성을 지정합니다. */
+          #content { width: 500px; height: 500px; background: lightgreen;
+                    float: left; }
+        /* id 속성으로 aside를 가지고 있는 태그의 width, background, float 속성을지정합니다. */
+          #aside { width: 200px; height: 300px; background: yellow;
+                  float: right;}
+
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Header</h1>
+    </div>
+    <div id="wrap">
+        <div id="content">
+            <h1>Content</h1>
+        </div>
+        <div id="aside">
+            <h1>Aside</h1>
+        </div>
+    </div>
+    <!-- 1. 아이디선택자는 웹페이지안에서 중복적용을 하면 안된다
+        2. 영문으로 시작해야하고, 띄어쓰기가 안된다
+        3. 숫자로 시작하면 안되고, 뒤쪽에 숫자가 올 수 있다.
+        4. 한글, 특수기호는 사용 X
+          단, _(언더바), -(하이픈) 사용가능 -->
+</body>
+</html>

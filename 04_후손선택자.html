@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Selector Basic</title>
+    <style>
+        div#header h1 { color: red; }
+        div#header h2 { color: green; }
+    /* #header의 h1과 h2를 그룹선택자로 선택하여 background-color를 적용해봅니다 */
+        div#header h1, div#header h2 { background: yellow; }
+    </style>
+</head>
+<body>
+    <h1>Lorem Ipsum1</h1>
+    <div id="header">
+      <h1>Lorem Ipsum2</h1>
+      <h2>Navigation</h2>
+      <div>
+          <h2>Navigation2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div id="section">
+      <h1>Lorem Ipsum2</h1>
+      <h2>Navigation</h2>
+    </div>
+</body>
+</html>
